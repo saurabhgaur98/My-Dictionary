@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginHorizontal="2dp"
+    android:background="@drawable/bg"
+    android:elevation="5dp"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/part_of_speech_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="noun"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#0C4F85"/>
+
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="8dp"
+         android:text="Definition : "
+         android:textSize="16sp"
+         android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/definition_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="1 definition \n\n 2 another \n\n 3 third" />
+
+    <TextView
+        android:id="@+id/synonyms_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Synonyms : "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/synonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="asad assad asaad assssad " />
+
+    <TextView
+        android:id="@+id/antonyms_title_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Antonyms : "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/antonyms_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="asad assad asaad assssad " />
+
+</LinearLayout>
